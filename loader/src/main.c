@@ -30,7 +30,7 @@ int main(int argc, char **args)
 
     addrs_len = 1;
     addrs = calloc(4, sizeof(ipv4_t));
-    addrs[0] = inet_addr("141.147.54.253");
+    addrs[0] = inet_addr("0.0.0.0");
 
 	if (argc == 2)
     {
